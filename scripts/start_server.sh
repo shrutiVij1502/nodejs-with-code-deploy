@@ -1,3 +1,3 @@
 #!/bin/bash
 echo "starting the server"
-sudo systemctl start nginx
+sudo pm2 start app.js
