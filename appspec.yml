@@ -2,18 +2,18 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ec2-user/shruti
+    destination: /home/ec2-user/test
     
 hooks:
   AfterInstall:
-    - location: /home/ec2-user/shruti/scripts/install_dependencies.sh
+    - location: /home/ec2-user/test/scripts/install_dependencies.sh
       timeout: 300
       runas: ec2-user
   ApplicationStart:
-    - location: /home/ec2-user/shruti/scripts/start_server.sh
+    - location: /home/ec2-user/test/scripts/start_server.sh
       timeout: 300
       runas: ec2-user
   ApplicationStop:
-    - location: /home/ec2-user/shruti/scripts/stop_server.sh
+    - location: /home/ec2-user/test/scripts/stop_server.sh
       timeout: 300
       runas: ec2-user
