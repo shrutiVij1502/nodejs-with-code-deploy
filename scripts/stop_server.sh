@@ -1,3 +1,3 @@
 #!/bin/bash
 echo "stopping the server"
-sudo systemctl stop nginx
+sudo pm2 stop app.js
