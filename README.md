@@ -54,11 +54,4 @@ you can see the appspec.yml file, in which we have given the stages and acording
 
 ![image](https://user-images.githubusercontent.com/67600604/207278836-bf442dd8-96db-4b38-a344-5b687cecc6f4.png)
 
-
-
-
-
-
-
-
-
+Reference - https://blog.devgenius.io/deploy-a-reactjs-application-to-aws-ec2-instance-using-aws-codepipeline-3df5e4157028
